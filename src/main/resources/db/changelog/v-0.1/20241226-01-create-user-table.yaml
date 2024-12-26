@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20241226-01
+      author: AytanShabanova
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: email
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fullName
+                  type: varchar(255)
+              - column:
+                  name: profileImageUrl
+                  type: varchar(255)
+            tableName: users

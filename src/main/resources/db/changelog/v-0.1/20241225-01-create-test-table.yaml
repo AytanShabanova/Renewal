@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20241225-01
+      author: AytanShabanova
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                  name: id
+                  type: BIGINT
+            tableName: test
