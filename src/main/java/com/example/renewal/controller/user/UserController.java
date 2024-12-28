@@ -1,10 +1,8 @@
-package com.example.renewal.controller;
+package com.example.renewal.controller.user;
 
 import com.example.renewal.models.dto.UserRegistrationRequest;
-import com.example.renewal.models.entity.User;
-import com.example.renewal.repo.UserRepository;
-import com.example.renewal.service.UserServiceInter;
-import com.example.renewal.service.impl.UserServiceImpl;
+import com.example.renewal.models.entity.user.User;
+import com.example.renewal.service.user.inter.UserServiceInter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20241228-01
+      author: AytanShabanova
+      changes:
+        - createTable:
+            tableName: psychological_test
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: title
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false

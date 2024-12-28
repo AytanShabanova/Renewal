@@ -1,6 +1,6 @@
-package com.example.renewal.repo;
+package com.example.renewal.repo.user;
 
-import com.example.renewal.models.entity.User;
+import com.example.renewal.models.entity.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

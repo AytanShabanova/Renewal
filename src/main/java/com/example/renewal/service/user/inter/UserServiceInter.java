@@ -1,8 +1,7 @@
-package com.example.renewal.service;
+package com.example.renewal.service.user.inter;
 
 import com.example.renewal.models.dto.UserRegistrationRequest;
-import com.example.renewal.models.entity.User;
-import org.springframework.stereotype.Service;
+import com.example.renewal.models.entity.user.User;
 
 
 public interface UserServiceInter {

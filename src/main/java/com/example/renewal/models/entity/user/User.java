@@ -1,4 +1,4 @@
-package com.example.renewal.models.entity;
+package com.example.renewal.models.entity.user;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
